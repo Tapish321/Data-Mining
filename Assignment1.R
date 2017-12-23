@@ -20,8 +20,7 @@ ir_matrix <-as.matrix(iris[,1:4])
 filled.contour(z =ir_matrix,plot.title =main("Iris Feature Visualization"),color = terrain.colors)
 
 
-
-
+#Corealtion Plots
 
 irisCor_Plot <- pairs(~Sepal.Length + Petal.Length + Sepal.Width + Petal.Width,lower.panel = NULL,upper.panel=upper.panel, data = iris)
 irisCor_Plot
